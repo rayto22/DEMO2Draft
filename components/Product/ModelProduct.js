@@ -4,7 +4,7 @@ class ModelProduct{
   }
 
   getAllProducts() {
-    return fetch('..demo2draft/data/products.json').then((d) => d.json());
+    return fetch('/data/products.json').then((d) => d.json());
   }
 
 
